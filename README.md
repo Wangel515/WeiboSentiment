@@ -30,22 +30,22 @@
 
 #### 工程结构
 WeiboSentiment  
-├── model `各种模型`   
-│　　├── model_100.txt `维度为100的FastText词向量`   
-│　　├── attention `Attention+LSTM模型`   
-│　　├── lstm `LSTM模型`    
-│　　└── nn `神经网络模型`   
-├── weibo2018 `微博语料数据`   
-│　　├── topics `未标注情感的不同主题微博语料`   
-│　　├── train.txt `训练集`   
-│　　└── test.txt `测试集`   
-├── FastText.ipynb `生成FastText词向量`  
-├── Attention.ipynb `Attention+LSTM分类器`  
-├── LSTM.ipynb `LSTM分类器`  
-├── NN.ipynb `神经网络分类器`  
-├── SVM.ipynb `SVM分类器`      
-├── stopwords.txt `停用词典`      
-└── utils.py　 `工具函数` 　
+│── model `各种模型`   
+│　　│── model_100.txt `维度为100的FastText词向量`   
+│　　│── attention `Attention+LSTM模型`   
+│　　│── lstm `LSTM模型`    
+│　　\` ── nn `神经网络模型`   
+│── weibo2018 `微博语料数据`   
+│　　│── topics `未标注情感的不同主题微博语料`   
+│　　│── train.txt `训练集`   
+│　　\` ── test.txt `测试集`   
+│── FastText.ipynb `生成FastText词向量`  
+│── Attention.ipynb `Attention+LSTM分类器`  
+│── LSTM.ipynb `LSTM分类器`  
+│── NN.ipynb `神经网络分类器`  
+│── SVM.ipynb `SVM分类器`      
+│── stopwords.txt `停用词典`      
+\` ── utils.py　 `工具函数` 　
 
 #### 结果
 在测试集上均取得0.8+的正确率

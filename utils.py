@@ -23,7 +23,7 @@ def tokenize(text):
     return tokens
 
 
-def load_curpus(path):
+def load_corpus(path):
     """
     加载语料库
     """
